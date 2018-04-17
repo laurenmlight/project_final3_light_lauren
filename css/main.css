@@ -72,6 +72,23 @@ a:active {
     margin: 10px;
 }
 
+.horizontal {
+    list-style-type: none;
+}
+
+.horizontal li {
+    display: inline;
+    padding: 3%;
+}
+
+.horizontal a {
+    text-decoration: none;
+    border: solid;
+    border-color: #d30176;
+    border-width: 1px;
+    padding: 5px;
+}
+
 .button {
     background: linear-gradient(#87ded7, #50cbc1);
     color: #fffbfd;
