@@ -67,6 +67,9 @@ a:active {
 
 **/
 
+#photobar {
+    padding-top: 50px;
+}
 .photos {
     width: 250px;
     margin: 10px;
