@@ -53,6 +53,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/jquery.tabslet.js"></script>
-    <script>$('.tabs').tabslet();</script>
+    <script>$('.tabs').tabslet({
+  mouseevent: 'click',
+  attribute: 'href',
+  animation: true,
+  delay: 1000
+});</script>
 </body>
 </html>
