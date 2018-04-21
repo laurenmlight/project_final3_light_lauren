@@ -9,9 +9,16 @@ html {
 }
 
 #logo {
-    width: 40%;
+    width: 20%;
     min-width: 200px;
-    padding: 7% 0 2% 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul {
+    padding: 5% 0;
 }
 
 body {
