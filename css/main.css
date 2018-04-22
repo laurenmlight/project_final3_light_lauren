@@ -13,7 +13,7 @@ html {
 
 .logo {
     width: 20%;
-    min-width: 230px;
+    min-width: 240px;
     padding: 4%;
 }
 
@@ -107,7 +107,7 @@ p, .tabcontent {
     font-weight: 400;
     font-size: .8rem;
     line-height: 1.6rem;
-    padding: 30px;
+    padding: 10%;
 }
 
 a {
@@ -218,11 +218,12 @@ footer {
 
     .logo {
         vertical-align: middle;
+        box-sizing: content-box;
     }
 
     nav ul li {
         display: inline;
-        padding: 2%;
+        padding: 1%;
     }
 
     nav a {
@@ -232,7 +233,7 @@ footer {
     }
 
     nav ul {
-        padding: 5% 0;
+        padding: 0;
     }
 
     h1 {
@@ -244,7 +245,6 @@ footer {
     }
 
     p, .tabcontent {
-        padding: 60px;
         font-size: 1.4rem;
         line-height: 2.5rem;
     }
