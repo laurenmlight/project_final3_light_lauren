@@ -17,7 +17,6 @@ $( document ).ready(function() {
     });
     });
 
-
 //Smooth Scroll Plugin
     var scroll = new SmoothScroll('a[href*="#"]');
 
