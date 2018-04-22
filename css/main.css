@@ -232,6 +232,10 @@ footer {
         font-size: 1rem;
     }
 
+    nav a:hover {
+        color: #d30176;
+    }
+
     nav ul {
         padding: 0;
     }
