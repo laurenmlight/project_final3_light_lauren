@@ -152,6 +152,31 @@ a:active {
     margin-top: 100px;
 }
 
+#flavors_tab-1 {
+    background-color: #98e0fb;
+}
+
+#flavors img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.products {
+    color: pink;
+    text-align: center;
+    display: inline-block;
+}
+
+h3 {
+    color: #d30176;
+}
+
+.products p {
+    color: #d30176;
+    padding: 0;
+    line-height: 1.4rem;
+}
+
 .horizontal {
     list-style-type: none;
     padding: 0;
@@ -251,6 +276,10 @@ footer {
     p, .tabcontent {
         font-size: 1.4rem;
         line-height: 2.5rem;
+    }
+
+    .products {
+        width: 30%;
     }
 
     section {
