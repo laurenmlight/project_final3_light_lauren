@@ -8,7 +8,7 @@ html {
     box-sizing: inherit;
 }
 
-#logo {
+.logo {
     width: 20%;
     min-width: 200px;
 }
@@ -209,8 +209,19 @@ footer {
         visibility: visible;
     }
 
+    .logo {
+        vertical-align: middle;
+    }
+
     nav ul li {
         display: inline;
+        padding: 2%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #6d1f7e;
+        font-size: 1rem;
     }
 
     nav ul {
