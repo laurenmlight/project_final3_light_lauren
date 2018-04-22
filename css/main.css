@@ -97,7 +97,6 @@ body {
 
 h2 {
     color: #6d1f7e;
-    padding: 30px;
     font-weight: 500;
     font-size: 1.2rem;
 }
@@ -107,7 +106,6 @@ p, .tabcontent {
     font-weight: 400;
     font-size: .8rem;
     line-height: 1.6rem;
-    padding: 10%;
 }
 
 a {
@@ -142,15 +140,11 @@ a:active {
     margin: 10px;
 }
 
+section {
+    padding-top: 80px;
+}
 
 /********* TABS ***********/
-
-#froyo_toppings {
-    border-style: solid;
-    border-color: #d30176;
-    padding-top: 50px;
-    margin-top: 100px;
-}
 
 #flavors_tab-1 {
     background-color: #98e0fb;
@@ -165,6 +159,7 @@ a:active {
     color: pink;
     text-align: center;
     display: inline-block;
+    padding-top: 5%;
 }
 
 h3 {
@@ -275,13 +270,22 @@ footer {
         font-size: 2rem;
     }
 
-    p, .tabcontent {
+    h3 {
         font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1.8rem;
         line-height: 2.5rem;
+        padding: 0 5%;
+    }
+
+    .products p {
+        font-size: 1.2rem;
     }
 
     .products {
-        width: 30%;
+        width: 28%;
     }
 
     section {
