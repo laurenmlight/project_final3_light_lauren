@@ -8,33 +8,42 @@ html {
     box-sizing: inherit;
 }
 
+
+/***************** NAV *******************/
+
 .logo {
     width: 20%;
-    min-width: 200px;
+    min-width: 230px;
+    padding: 4%;
+}
+
+.desktopmenu {
+    display: none;
 }
 
 
-/***************** BEGIN HAMBURGER STYLES *******************/
+nav {
+    left: 0px;
+    position: fixed;
+    background-color: #fffbfd;
+    border-bottom: solid 1px #6d1f7e;
+}
 
+/***************** BEGIN HAMBURGER STYLES *******************/
 
 header{
 	width:100%;
 	height:60px;
-	line-height:60px;
-}
-
-.desktopmenu {
-    visibility: hidden;
 }
 
 .hamburger{
   background:none;
-  position:absolute;
+  position:fixed;
   top:0;
   right:0;
   line-height:45px;
   padding:5px 15px 0px 15px;
-  color:#999;
+  color:#6d1f7e;
   border:0;
   font-size:1.4em;
   font-weight:bold;
@@ -42,13 +51,14 @@ header{
   outline:none;
   z-index:10000000000000;
 }
+
 .cross{
   background:none;
-  position:absolute;
+  position:fixed;
   top:0px;
   right:0;
   padding:7px 15px 0px 15px;
-  color:#999;
+  color:#6d1f7e;
   border:0;
   font-size:3em;
   line-height:65px;
@@ -58,14 +68,11 @@ header{
   z-index:10000000000000;
 }
 
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#fffbfd;  position:absolute; text-align:center; font-size:12px;}
+.menu{z-index:1000000; font-weight:bold; width:100%; background:#fffbfd;  position:fixed; text-align:center; font-size:1.2rem;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
-.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#6d1f7e 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#6d1f7e;}
 .menu a{text-decoration:none; color:#666;}
-.menu a:hover{text-decoration:none; color:#666;}
 
 .glyphicon-home{
   color:white;
@@ -201,12 +208,12 @@ footer {
         margin: auto;
     }
 
-    .menu, .hamburger, .cross {
-        visibility: hidden;
+    .menu, .hamburger, .cross, #mobilelogo {
+        display: none;
     }
 
     .desktopmenu {
-        visibility: visible;
+        display: block;
     }
 
     .logo {
