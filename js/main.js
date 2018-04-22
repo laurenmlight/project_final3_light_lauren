@@ -21,4 +21,11 @@ $( document ).ready(function() {
 //Smooth Scroll Plugin
     var scroll = new SmoothScroll('a[href*="#"]');
 
+//Tabslet Plugin
+    $('.tabs').tabslet({
+    mouseevent: 'click',
+    attribute: 'href',
+    animation: true
+    });
+
 });
