@@ -27,4 +27,7 @@ $( document ).ready(function() {
     animation: true
     });
 
+// Backstretch Plugin
+    $("#about").backstretch("img/fruitypebbles.png");
+
 });
