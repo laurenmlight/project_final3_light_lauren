@@ -137,25 +137,6 @@ a:active {
     padding: 20% 0;
 }
 
-/** may not use
-
- #photobar {
-    background-color: white;
-    box-shadow: 1px 0px 10px  #b7b7b7;
-    padding: 60px 20px;
-    border-radius: 2px;
-}
-
-**/
-
-#photobar {
-    padding-top: 50px;
-}
-.photos {
-    width: 250px;
-    margin: 10px;
-}
-
 section {
     padding-top: 80px;
 }
