@@ -107,7 +107,7 @@ h1 {
 }
 
 h2 {
-    color: #6d1f7e;
+    color: #fffbfd;
     font-weight: 500;
     font-size: 1.2rem;
 }
@@ -132,20 +132,20 @@ a:active {
     color: #411135;
 }
 
+section {
+    padding-top: 80px;
+}
+
 #about {
     margin-top: 1%;
     padding: 20% 0;
 }
 
-section {
-    padding-top: 80px;
+#froyo_toppings {
+    background-color: #d30176;
 }
 
 /********* TABS ***********/
-
-#flavors_tab-1 {
-    background-color: #98e0fb;
-}
 
 #flavors img {
     width: 200px;
@@ -153,35 +153,27 @@ section {
 }
 
 .products {
-    color: pink;
     text-align: center;
-    display: inline-block;
-    padding-top: 5%;
-}
-
-h3 {
-    color: #d30176;
+    display: block;
+    padding: 20px;
+    background-color: #fffbfd;
+    border-radius: 15px;
+    margin: 1%;
 }
 
 .products p {
-    color: #d30176;
     padding: 0;
     line-height: 1.4rem;
 }
 
 .horizontal {
     list-style-type: none;
-    padding: 0;
+    padding: 3% 0 0 0;
 }
 
 .horizontal li {
     display: inline-block;
     margin: 20px 10px;
-}
-
-.tabcontent {
-    background-color: #d30176;
-    color: #fffbfd;;
 }
 
 .button {
@@ -278,7 +270,9 @@ footer {
     }
 
     .products {
-        width: 28%;
+        display: inline-block;
+        width: 30%;
+
     }
 
     section {
