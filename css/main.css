@@ -27,6 +27,7 @@ nav {
     position: fixed;
     background-color: #fffbfd;
     border-bottom: solid 1px #6d1f7e;
+    z-index: 2;
 }
 
 /***************** BEGIN HAMBURGER STYLES *******************/
@@ -95,6 +96,16 @@ body {
     padding: 0px 5px;
 }
 
+h1 {
+    color: #6d1f7e;
+    background-color:rgba(255,251,253,.6);
+    font-size: 2rem;
+    width: 70%;
+    margin: auto;
+    line-height: 2.5rem;
+    padding: 3%;
+}
+
 h2 {
     color: #6d1f7e;
     font-weight: 500;
@@ -119,6 +130,11 @@ a:hover {
 
 a:active {
     color: #411135;
+}
+
+#about {
+    margin-top: 1%;
+    padding: 20% 0;
 }
 
 /** may not use
@@ -260,10 +276,6 @@ footer {
     nav ul {
         padding: 0;
         margin: 0;
-    }
-
-    h1 {
-        font-size: 3rem;
     }
 
     h2 {
