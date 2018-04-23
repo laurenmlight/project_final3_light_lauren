@@ -110,6 +110,8 @@ h2 {
     color: #fffbfd;
     font-weight: 500;
     font-size: 1.2rem;
+    width: 70%;
+    margin: auto;
 }
 
 p, .tabcontent {
