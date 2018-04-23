@@ -148,6 +148,21 @@ section {
     padding-bottom: 150px;
 }
 
+#promotions {
+    background-color: #50cbc1;
+}
+
+#events {
+    background-color: #6d1f7e;
+}
+
+#charity {
+    background-color: #d30176;
+}
+
+#contact{
+    background-color: #50cbc1;
+}
 /********* TABS ***********/
 
 #flavors img {
