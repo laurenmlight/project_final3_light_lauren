@@ -28,6 +28,6 @@ $( document ).ready(function() {
     });
 
 // Backstretch Plugin
-    $("#about").backstretch("img/fruitypebbles.png");
+    $("#about").backstretch("img/fruitypebbles2.jpg");
 
 });
