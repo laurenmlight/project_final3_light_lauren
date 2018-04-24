@@ -143,33 +143,14 @@ section {
     padding: 20% 0;
 }
 
+/***************** FLAVORS SECTION *****************/
+
 #froyo_toppings {
     background-color: #d30176;
     padding-bottom: 150px;
 }
 
-#promotions {
-    background-color: #6d1f7e;
-}
 
-#specialarticle {
-    padding: 25% 0;
-}
-
-#specials {
-    color: #fffbfd;
-}
-#events {
-    background-color: #6d1f7e;
-}
-
-#charity {
-    background-color: #d30176;
-}
-
-#contact{
-    background-color: #50cbc1;
-}
 /********* TABS ***********/
 
 #flavors img {
@@ -220,6 +201,40 @@ section {
 
 footer {
     padding: 60px;
+}
+
+/***************** PROMOTIONS SECTION ******************/
+
+#promotions {
+    background-color: #6d1f7e;
+}
+
+#specialarticle {
+    padding: 25% 0;
+}
+
+#specials {
+    color: #fffbfd;
+}
+
+/***************** EVENTS SECTION ******************/
+
+
+#events {
+    background-color: #6d1f7e;
+}
+
+/***************** CHARITY SECTION ******************/
+
+
+#charity {
+    background-color: #d30176;
+}
+
+
+/******************* CONTACT SECTION ****************/
+#contact{
+    background-color: #50cbc1;
 }
 
 .visuallyhidden {
