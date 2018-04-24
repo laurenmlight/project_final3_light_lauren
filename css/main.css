@@ -233,8 +233,23 @@ footer {
 
 
 /******************* CONTACT SECTION ****************/
-#contact{
-    background-color: #50cbc1;
+
+#contact {
+    background-color: #fffbfd;
+}
+
+#contact h2 {
+    color: #d30176;
+}
+
+#contact p {
+    font-size: 1rem;
+    line-height: normal;
+    padding: 0 2%;
+}
+
+#contact article {
+    display: inline-block;
 }
 
 .visuallyhidden {
