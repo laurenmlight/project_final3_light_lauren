@@ -35,11 +35,11 @@ $( document ).ready(function() {
 
 // JavaScript to show daily specials
 var d=new Date()
-  var weekday=new Array("Sunday: 1/2 off with college ID",
-                        "Monday: 1/2 off froyo from 6pm-8pm",
-                        "Tuesday: 1/2 off Coffee Drinks",
-                        "Wednesday: 1/2 off froyo from 6pm-8pm",
-                        "Thursday: 1/2 off if you wear pajamas",
+  var weekday=new Array("Sunday: Half off with college ID",
+                        "Monday: Half off froyo from 6pm-8pm",
+                        "Tuesday: Half off Coffee Drinks",
+                        "Wednesday: Half off froyo from 6pm-8pm",
+                        "Thursday: Half off if you wear pajamas",
                         "Friday: $1 off with teacher ID",
                         "Saturday: $1 off when you purchase 3")
 
