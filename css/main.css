@@ -149,13 +149,16 @@ section {
 }
 
 #promotions {
-    background-color: #50cbc1;
+    background-color: #6d1f7e;
 }
 
 #specialarticle {
-    padding: 30% 0;
+    padding: 25% 0;
 }
 
+#specials {
+    color: #fffbfd;
+}
 #events {
     background-color: #6d1f7e;
 }
