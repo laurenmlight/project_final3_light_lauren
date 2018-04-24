@@ -242,6 +242,10 @@ footer {
     color: #d30176;
 }
 
+h3 {
+    color: #6d1f7e;
+}
+
 #contact p {
     font-size: 1rem;
     line-height: normal;
@@ -250,6 +254,8 @@ footer {
 
 #contact article {
     display: inline-block;
+    min-width: 40%;
+    padding: 1%;
 }
 
 .visuallyhidden {
