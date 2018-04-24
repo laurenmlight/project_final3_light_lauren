@@ -31,3 +31,18 @@ $( document ).ready(function() {
     $("#about").backstretch("img/fruitypebbles2.jpg");
 
 });
+
+
+// JavaScript to show daily specials
+var d=new Date()
+  var weekday=new Array("Sunday: 1/2 off with college ID",
+                        "Monday: 1/2 off froyo from 6pm-8pm",
+                        "Tuesday: 1/2 off Coffee Drinks",
+                        "Wednesday: 1/2 off froyo from 6pm-8pm",
+                        "Thursday: 1/2 off if you wear pajamas",
+                        "Friday: $1 off with teacher ID",
+                        "Saturday: $1 off when you purchase 3")
+
+document.getElementById("promotions").addEventListener("click", function(){
+    document.getElementById("specials").innerHTML = "" + weekday[d.getDay()];
+});
