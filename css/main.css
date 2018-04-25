@@ -266,10 +266,17 @@ footer {
 
 #gifts {
     background-color: #fc9b2a;
+    padding: 100px 0;
 }
 
+#gifts article {
+    padding: 20px;
+}
 
-
+#contactus, #contactus a {
+    font-size: 1.5rem;
+    color: #6d1f7e;
+}
 
 /******************* CONTACT SECTION ****************/
 
