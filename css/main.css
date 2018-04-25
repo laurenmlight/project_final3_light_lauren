@@ -156,8 +156,8 @@ section {
 /********************* TAB PLUGIN *****************/
 
 #flavors img {
-    width: 200px;
-    border-radius: 10px;
+    width: 150px;
+    border-radius: 5px;
 }
 
 .products {
@@ -165,7 +165,7 @@ section {
     display: block;
     padding: 20px;
     background-color: #fffbfd;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 5px 50px;
 }
 
@@ -176,12 +176,12 @@ section {
 
 .horizontal {
     list-style-type: none;
-    padding: 3% 0 0 0;
+    padding: 5px 0 0 0;
 }
 
 .horizontal li {
     display: inline-block;
-    margin: 20px 30px;
+    margin: 20px 10px;
 }
 
 .tabsbutton {
@@ -334,12 +334,15 @@ footer {
         display: inline-block;
         margin: 0;
     }
-}
 
+    #flavors img {
+        width: 80%;
+    }
+}
 
 @media all and (min-width:900px) {
     #container {
-        width: 900px;
+        width: 880px;
         display: block;
         margin: auto;
     }
