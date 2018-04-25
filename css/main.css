@@ -281,7 +281,7 @@ section {
 }
 
 #contactus, #contactus a {
-    padding-top: 40px;
+    padding: 40px 10px 0 10px;
     font-size: 1.5rem;
 }
 
