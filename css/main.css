@@ -248,6 +248,7 @@ footer {
 
 #awards {
     background-color: #98e0fb;
+    padding: 100px 0;
 }
 
 #awards h2 {
@@ -256,7 +257,7 @@ footer {
 
 .awardimages {
     width: 180px;
-    margin: 10%;
+    margin: 10% 5%;
     vertical-align: middle;
 }
 
