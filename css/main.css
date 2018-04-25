@@ -307,12 +307,12 @@ h3 {
     .logo {
         vertical-align: middle;
         box-sizing: content-box;
-        padding: 1%;
+        padding: 10px;
     }
 
     nav ul li {
         display: inline;
-        padding: 0 1%;
+        padding: 0 10px;
     }
 
     nav a {
