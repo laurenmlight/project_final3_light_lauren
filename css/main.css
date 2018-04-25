@@ -225,14 +225,22 @@ footer {
 
 #promotions {
     background-color: #6d1f7e;
+    padding: 140px 0;
 }
 
 #specialarticle {
-    padding: 25% 0;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #fffbfd;
+}
+
+#specialbutton {
+    display: inline-block;
 }
 
 #specials {
-    color: #fffbfd;
+    color: #6d1f7e;
 }
 
 /***************** EVENTS SECTION ******************/
@@ -363,6 +371,10 @@ h3 {
 
     #about {
         padding: 250px 0;
+    }
+
+    #specialarticle {
+        margin: 30px 100px;
     }
 
 }
