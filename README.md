@@ -5,9 +5,9 @@
 ## Links
 * [Github Repo link](https://github.com/laurenmlight/project_final3_light_lauren)
 * [Web host](http://www.lightcreativestudio.com/project_final3_light_lauren/)
-* [W3C Validator - HTML]()
-* [W3C Validator - CSS]()
-* [HTML5 Outliner]()
+* [W3C Validator - HTML](https://validator.w3.org/nu/?doc=http%3A%2F%2Flightcreativestudio.com%2Fproject_final3_light_lauren%2F)
+* [W3C Validator - CSS](https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Flightcreativestudio.com%2Fproject_final3_light_lauren%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Flightcreativestudio.com%2Fproject_final3_light_lauren%2F)
 
 ## Resources
 * [Java2s](http://www.java2s.com/Code/JavaScript/Development/Displayweekdaynameofthecurrentday.htm)
