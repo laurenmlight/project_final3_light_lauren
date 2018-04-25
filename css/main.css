@@ -269,6 +269,10 @@ footer {
     padding: 100px 0;
 }
 
+#gifts h3 {
+    display: inline-block;
+}
+
 #gifts article {
     padding: 20px;
 }
