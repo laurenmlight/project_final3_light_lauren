@@ -140,7 +140,7 @@ section {
 
 #about {
     margin-top: 1%;
-    padding: 20% 0;
+    padding: 70px 0;
 }
 
 /***************** FLAVORS SECTION *****************/
@@ -359,13 +359,7 @@ h3 {
     }
 
     #about {
-        padding: 28% 0;
+        padding: 250px 0;
     }
 
-}
-
-@media all and (min-width:1200px) {
-    #about {
-        padding: 30% 0;
-    }
 }
