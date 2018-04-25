@@ -8,7 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-
 /***************** NAV *******************/
 
 .logo {
@@ -21,10 +20,10 @@ html {
     display: none;
 }
 
-
 nav {
     left: 0px;
     position: fixed;
+    text-transform: lowercase;
     background-color: #fffbfd;
     border-bottom: solid 1px #6d1f7e;
     z-index: 2;
