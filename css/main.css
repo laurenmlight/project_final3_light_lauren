@@ -263,14 +263,18 @@ footer {
 
 /***************** GIFTS SECTION ******************/
 
+#gifts h2 {
+    padding-bottom: 70px;
+}
 
 #gifts {
     background-color: #d30176;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 #gifts h3 {
     display: inline-block;
+    margin: 0;
 }
 
 #gifts p {
@@ -282,6 +286,7 @@ footer {
 }
 
 #contactus, #contactus a {
+    padding-top: 40px;
     font-size: 1.5rem;
 }
 
